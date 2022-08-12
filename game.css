@@ -24,6 +24,42 @@
     width: 100%;
 }
 
+.navbar {
+    margin: 4rem auto -1rem auto !important;
+    max-width: 80%;
+}
+
+.navbar div {
+    max-width: 92%;
+    margin: auto;
+}
+
+div a .fa-house {
+    margin-right: 45%;
+}
+
+div a .fa-graduation-cap {
+    margin-left: 45%;
+}
+
+.fa-house {
+    font-size: 3rem;
+    background: none !important;
+}
+  
+.fa-house:hover {
+    color: #f9c13e;
+}
+
+.fa-graduation-cap {
+    font-size: 3rem;
+    background: none !important;
+}
+
+.fa-graduation-cap:hover {
+    color: #f9c13e;
+}
+
 .correct {
     background: #94AA5E;
 }
