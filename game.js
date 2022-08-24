@@ -1,9 +1,12 @@
 const question = document.getElementById('question');
+const category = document.getElementById('category');
 const choices = Array.from(document.getElementsByClassName('choice-text'));
 const questionCounterText = document.getElementById('questionCounter');
 const progressText = document.getElementById('progressText');
 const scoreText = document.getElementById('score');
 const progressBarFull = document.getElementById('progressBarFull');
+const loader = document.getElementById('loader');
+const game = document.getElementById('game');
 
 let currentQuestion = {};
 let acceptingAnswers = false;
@@ -13,7 +16,7 @@ let availableQuestions = [];
 
 let questions = []
 
-fetch("time.json")
+fetch("category.json")
     .then(res => {
         return res.json();
     })
@@ -33,6 +36,8 @@ startGame = () => {
     score = 0;
     availableQuestions = [...questions];
     getNewQuestion();
+    game.classList.remove('hidden');
+    loader.classList.add('hidden');
 };
 
 getNewQuestion = () => {

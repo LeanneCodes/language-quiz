@@ -234,6 +234,11 @@ h2 {
   color: #f9c13e;
 }
 
+#category {
+    font-size: 2rem;
+    padding: 2rem 0;
+}
+
 /* End screen */
 form {
     width: 100%;
@@ -255,6 +260,40 @@ input {
 
 input::placeholder {
     color: lightgray;
+}
+
+/* Highscores */
+#highScoresList {
+    padding-left: 0;
+    margin-bottom: 4rem;
+}
+
+.high-score {
+    font-size: 2.4rem;
+    margin-bottom: 0.5rem;
+}
+
+.high-score:hover {
+    transform: scale(1.025);
+}
+
+/* Loader */
+#loader {
+    border: 1.6rem solid white;
+    border-radius: 50%;
+    border-top: 1.6rem solid #AC8693;
+    width: 12rem;
+    height: 12rem;
+    animation: spin 2s linear infinite;
+}
+
+@keyframes spin {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
 }
 
 @media screen and (max-width: 768px) {

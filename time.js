@@ -1,8 +1,12 @@
 const question = document.getElementById('question');
+const category = document.getElementById('category');
 const choices = Array.from(document.getElementsByClassName('choice-text'));
-const progressText = document.querySelector('#progressText');
-const scoreText = document.querySelector('#score');
-const progressBarFull = document.querySelector('#progressBarFull');
+const questionCounterText = document.getElementById('questionCounter');
+const progressText = document.getElementById('progressText');
+const scoreText = document.getElementById('score');
+const progressBarFull = document.getElementById('progressBarFull');
+const loader = document.getElementById('loader');
+const game = document.getElementById('game');
 
 let currentQuestion = {};
 let acceptingAnswers = false;
@@ -17,7 +21,6 @@ fetch("time.json")
         return res.json();
     })
     .then(loadedQuestions => {
-        console.log(loadedQuestions);
         questions = loadedQuestions;
         startGame();
     })
@@ -32,16 +35,23 @@ startGame = () => {
     questionCounter = 0;
     score = 0;
     availableQuestions = [...questions];
-    console.log(availableQuestions)
     getNewQuestion();
+    game.classList.remove('hidden');
+    loader.classList.add('hidden');
 };
 
 getNewQuestion = () => {
     if(availableQuestions.length === 0 || questionCounter >= max_questions) {
+        localStorage.setItem('mostRecentScore', score);
         // go to the end page
         return window.location.assign("/end.html");
     }
     questionCounter++;
+    progressText.innerText = `Question ${questionCounter}/${max_questions}`;
+
+    // update progress bar
+    progressBarFull.style.width = `${(questionCounter / max_questions) * 100}%`;
+
     const questionIndex = Math.floor(Math.random() * availableQuestions.length);
     currentQuestion = availableQuestions[questionIndex];
     question.innerText = currentQuestion.question;
@@ -59,10 +69,27 @@ getNewQuestion = () => {
 choices.forEach( choice => {
     choice.addEventListener('click', e => {
         if(!acceptingAnswers) return;
+
         acceptingAnswers = false;
         const selectedChoice = e.target;
         const selectedAnswer = selectedChoice.dataset["number"];
-        console.log(selectedAnswer);
-        getNewQuestion();
+
+        const classToApply = selectedAnswer == currentQuestion.answer ? "correct" : "incorrect";
+
+        if(classToApply === 'correct') {
+            incrementScore(correct_bonus);
+        }
+
+        selectedChoice.parentElement.classList.add(classToApply);
+
+        setTimeout( () => {
+            selectedChoice.parentElement.classList.remove(classToApply);
+            getNewQuestion();
+        }, 1000);
     });
 });
+
+incrementScore = num => {
+    score += num;
+    scoreText.innerText = score;
+}
