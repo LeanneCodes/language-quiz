@@ -1,4 +1,5 @@
 const username = document.getElementById('username');
+const categories = document.getElementById('categories');
 const saveScoreBtn = document.getElementById('saveScoreBtn');
 const finalScore = document.getElementById('finalScore');
 const mostRecentScore = localStorage.getItem('mostRecentScore');
@@ -20,6 +21,7 @@ saveHighScore = (e) => {
         score: mostRecentScore,
         name: username.value,
     };
+
     highScores.push(score);
     highScores.sort((a, b) => b.score - a.score);
     highScores.splice(10);
