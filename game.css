@@ -24,26 +24,9 @@
     width: 100%;
 }
 
-.navbar {
-    margin: 4rem auto -1rem auto !important;
-    max-width: 80%;
-}
-
-.navbar div {
-    max-width: 92%;
-    margin: auto;
-}
-
-div a .fa-house {
-    margin-right: 45%;
-}
-
-div a .fa-graduation-cap {
-    margin-left: 45%;
-}
-
 .fa-house {
-    font-size: 3rem;
+    font-size: 4rem;
+    padding: 2rem 0 5rem 0;
     background: none !important;
 }
   
@@ -52,7 +35,8 @@ div a .fa-graduation-cap {
 }
 
 .fa-graduation-cap {
-    font-size: 3rem;
+    font-size: 4rem;
+    padding: 2rem 0 5rem 0;
     background: none !important;
 }
 
@@ -70,10 +54,9 @@ div a .fa-graduation-cap {
 
 /* HUD */
 
-#hud {
+.hud {
     display: flex;
     justify-content: space-between;
-
 }
 
 .hud-prefix {
