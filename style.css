@@ -1,5 +1,5 @@
 :root {
-    background-color: #007291;
+    background-color: #D7A076;
 }
 
 * {
@@ -55,7 +55,7 @@ h2 {
     display: none;
 }
 
-.btn {
+button, .btn {
     font-size: 2.4rem;
     padding: 2rem 0;
     width: 30rem;
@@ -64,13 +64,14 @@ h2 {
     text-decoration: none;
     background: #f9c13e;
     border-radius: 5px;
+    border: none;
 }
 
-.btn:hover {
+button:hover, .btn:hover {
     cursor: pointer;
     background: #f9f2db;
     color: #f2624f;
-    box-shadow: rgba(255, 255, 255, 0.2) 0px 0px 0px 1px inset, rgba(0, 0, 0, 0.9) 0px 0px 0px 1px;
+    box-shadow: rgba(255, 255, 255, 0.2) 0px 0px 0px 1px inset, rgba(0, 0, 0, 0.9) 0px 0px 0px 1px !important;
     transition: transform 150ms;
     transform: scale(1.03);
 }
@@ -101,7 +102,7 @@ h2 {
 .choice-prefix {
     padding: 2rem 2.5rem;
     border-radius: 5px 0 0 5px;
-    background-color: #AC8693;
+    background-color: #723148;
 }
 
 .choice-text {
