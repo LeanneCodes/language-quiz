@@ -1,42 +1,306 @@
 [
     {
-        "question": "How many toes do we have?",
-        "choice1": "6",
-        "choice2": "3",
-        "choice3": "8",
-        "choice4": "10",
+        "question": "Monday",
+        "choice1": "Jueves",
+        "choice2": "Miécoles",
+        "choice3": "Sabado",
+        "choice4": "Lunes",
         "answer": 4
     },
     {
-        "question": "How many fingers do we have?",
-        "choice1": "4",
-        "choice2": "7",
-        "choice3": "10",
-        "choice4": "6",
+        "question": "Tuesday",
+        "choice1": "Sabado",
+        "choice2": "Domingo",
+        "choice3": "Martes",
+        "choice4": "Lunes",
         "answer": 3
     },
     {
-        "question": "How many arms do we have?",
-        "choice1": "2",
-        "choice2": "3",
-        "choice3": "1",
-        "choice4": "8",
+        "question": "Wednesday",
+        "choice1": "Miécoles",
+        "choice2": "Lunes",
+        "choice3": "Viernes",
+        "choice4": "Domingo",
         "answer": 1
     },
     {
-        "question": "How many legs do we have?",
-        "choice1": "4",
-        "choice2": "2",
-        "choice3": "1",
-        "choice4": "9",
+        "question": "Thursday",
+        "choice1": "Viernes",
+        "choice2": "Jueves",
+        "choice3": "Martes",
+        "choice4": "Lunes",
         "answer": 2
     },
     {
-        "question": "How many nails do we have?",
-        "choice1": "40",
-        "choice2": "30",
-        "choice3": "20",
-        "choice4": "10",
+        "question": "Friday",
+        "choice1": "Martes",
+        "choice2": "Sabado",
+        "choice3": "Viernes",
+        "choice4": "Jueves",
         "answer": 3
+    },
+    {
+        "question": "Saturday",
+        "choice1": "Lunes",
+        "choice2": "Sabado",
+        "choice3": "Domingo",
+        "choice4": "Miécoles",
+        "answer": 2
+    },
+    {
+        "question": "Sunday",
+        "choice1": "Domingo",
+        "choice2": "Miécoles",
+        "choice3": "Lunes",
+        "choice4": "Sabado",
+        "answer": 1
+    },
+    {
+        "question": "January",
+        "choice1": "Enero",
+        "choice2": "Marzo",
+        "choice3": "Junio",
+        "choice4": "Mayo",
+        "answer": 1
+    },
+    {
+        "question": "February",
+        "choice1": "Diciembre",
+        "choice2": "Julio",
+        "choice3": "Febrero",
+        "choice4": "Enero",
+        "answer": 3
+    },
+    {
+        "question": "March",
+        "choice1": "Abril",
+        "choice2": "Marzo",
+        "choice3": "Octubre",
+        "choice4": "Agosto",
+        "answer": 2
+    },
+    {
+        "question": "April",
+        "choice1": "Febrero",
+        "choice2": "Abril",
+        "choice3": "Septiembre",
+        "choice4": "Noviembre",
+        "answer": 2
+    },
+    {
+        "question": "May",
+        "choice1": "Marzo",
+        "choice2": "Julio",
+        "choice3": "Enero",
+        "choice4": "Mayo",
+        "answer": 4
+    },
+    {
+        "question": "June",
+        "choice1": "Junio",
+        "choice2": "Julio",
+        "choice3": "Enero",
+        "choice4": "Abril",
+        "answer": 1
+    },
+    {
+        "question": "July",
+        "choice1": "Julio",
+        "choice2": "Marzo",
+        "choice3": "Octubre",
+        "choice4": "Septiembre",
+        "answer": 1
+    },
+    {
+        "question": "August",
+        "choice1": "Febrero",
+        "choice2": "Junio",
+        "choice3": "Agosto",
+        "choice4": "Abril",
+        "answer": 3
+    },
+    {
+        "question": "September",
+        "choice1": "Septiembre",
+        "choice2": "Mayo",
+        "choice3": "Agosto",
+        "choice4": "Enero",
+        "answer": 1
+    },
+    {
+        "question": "October",
+        "choice1": "Noviembre",
+        "choice2": "Octubre",
+        "choice3": "Diciembre",
+        "choice4": "Febrero",
+        "answer": 2
+    },
+    {
+        "question": "November",
+        "choice1": "Marzo",
+        "choice2": "Mayo",
+        "choice3": "Julio",
+        "choice4": "Noviembre",
+        "answer": 4
+    },
+    {
+        "question": "December",
+        "choice1": "Julio",
+        "choice2": "Diciembre",
+        "choice3": "Abril",
+        "choice4": "Enero",
+        "answer": 2
+    },
+    {
+        "question": "Day before yesterday",
+        "choice1": "",
+        "choice2": "anteayer",
+        "choice3": "",
+        "choice4": "",
+        "answer": 2
+    },
+    {
+        "question": "Yesterday",
+        "choice1": "ayer",
+        "choice2": "",
+        "choice3": "",
+        "choice4": "",
+        "answer": 1
+    },
+    {
+        "question": "Year",
+        "choice1": "",
+        "choice2": "",
+        "choice3": "el año",
+        "choice4": "",
+        "answer": 3
+    },
+    {
+        "question": "Day",
+        "choice1": "",
+        "choice2": "el día",
+        "choice3": "",
+        "choice4": "",
+        "answer": 2
+    },
+    {
+        "question": "Month",
+        "choice1": "",
+        "choice2": "",
+        "choice3": "",
+        "choice4": "el mes",
+        "answer": 4
+    },
+    {
+        "question": "Century",
+        "choice1": "el siglo",
+        "choice2": "",
+        "choice3": "",
+        "choice4": "",
+        "answer": 1
+    },
+    {
+        "question": "Hour",
+        "choice1": "",
+        "choice2": "",
+        "choice3": "la hora",
+        "choice4": "",
+        "answer": 3
+    },
+    {
+        "question": "Today",
+        "choice1": "",
+        "choice2": "",
+        "choice3": "",
+        "choice4": "hoy",
+        "answer": 4
+    },
+    {
+        "question": "Week",
+        "choice1": "",
+        "choice2": "",
+        "choice3": "la semana",
+        "choice4": "",
+        "answer": 3
+    },
+    {
+        "question": "Dawn",
+        "choice1": "",
+        "choice2": "madrugada",
+        "choice3": "",
+        "choice4": "",
+        "answer": 2
+    },
+    {
+        "question": "Tomorrow",
+        "choice1": "",
+        "choice2": "mañana",
+        "choice3": "",
+        "choice4": "",
+        "answer": 2
+    },
+    {
+        "question": "Morning",
+        "choice1": "mañana",
+        "choice2": "",
+        "choice3": "",
+        "choice4": "",
+        "answer": 1
+    },
+    {
+        "question": "Midnight",
+        "choice1": "",
+        "choice2": "",
+        "choice3": "medianoche",
+        "choice4": "",
+        "answer": 3
+    },
+    {
+        "question": "Noon",
+        "choice1": "",
+        "choice2": "",
+        "choice3": "",
+        "choice4": "mediadia",
+        "answer": 4
+    },
+    {
+        "question": "Minute",
+        "choice1": "",
+        "choice2": "",
+        "choice3": "el minuto",
+        "choice4": "",
+        "answer": 3
+    },
+    {
+        "question": "Night",
+        "choice1": "",
+        "choice2": "la noche",
+        "choice3": "",
+        "choice4": "",
+        "answer": 2
+    },
+    {
+        "question": "Day after tomorrow",
+        "choice1": "",
+        "choice2": "el pasado mañana",
+        "choice3": "",
+        "choice4": "",
+        "answer": 2
+    },
+    {
+        "question": "Seconds",
+        "choice1": "",
+        "choice2": "",
+        "choice3": "los segundos",
+        "choice4": "",
+        "answer": 3
+    },
+    {
+        "question": "Afternoon",
+        "choice1": "",
+        "choice2": "",
+        "choice3": "",
+        "choice4": "la tarde",
+        "answer": 4
     }
 ]
