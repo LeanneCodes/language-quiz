@@ -1,42 +1,298 @@
 [
     {
-        "question": "How many toes do we have?",
-        "choice1": "6",
-        "choice2": "3",
-        "choice3": "8",
-        "choice4": "10",
-        "answer": 4
-    },
-    {
-        "question": "How many fingers do we have?",
-        "choice1": "4",
-        "choice2": "7",
-        "choice3": "10",
-        "choice4": "6",
-        "answer": 3
-    },
-    {
-        "question": "How many arms do we have?",
-        "choice1": "2",
-        "choice2": "3",
-        "choice3": "1",
-        "choice4": "8",
+        "question": "Long (Hair)",
+        "choice1": "largo/a",
+        "choice2": "liso/a",
+        "choice3": "rizado/a",
+        "choice4": "abundante",
         "answer": 1
     },
     {
-        "question": "How many legs do we have?",
-        "choice1": "4",
-        "choice2": "2",
-        "choice3": "1",
-        "choice4": "9",
+        "question": "Short (Hair)",
+        "choice1": "abundante",
+        "choice2": "ondulado/a",
+        "choice3": "corto/a",
+        "choice4": "escalado/a",
+        "answer": 3
+    },
+    {
+        "question": "Straight (Hair)",
+        "choice1": "anoso/a",
+        "choice2": "rubio/a",
+        "choice3": "ondulado/a",
+        "choice4": "liso/a",
+        "answer": 4
+    },
+    {
+        "question": "Curly (Hair)",
+        "choice1": "rubio/a",
+        "choice2": "rizado/a",
+        "choice3": "fino/a",
+        "choice4": "castaño/a",
         "answer": 2
     },
     {
-        "question": "How many nails do we have?",
-        "choice1": "40",
-        "choice2": "30",
-        "choice3": "20",
-        "choice4": "10",
+        "question": "Wavy (Hair)",
+        "choice1": "negro/a",
+        "choice2": "ondulado/a",
+        "choice3": "teñido/a",
+        "choice4": "pelirrojo/a",
+        "answer": 2
+    },
+    {
+        "question": "Brown (Hair)",
+        "choice1": "saludable",
+        "choice2": "negro/a",
+        "choice3": "rizado/a",
+        "choice4": "castaño/a",
+        "answer": 4
+    },
+    {
+        "question": "Blonde (Hair)",
+        "choice1": "rubio/a",
+        "choice2": "pelirrojo/a",
+        "choice3": "rizado/a",
+        "choice4": "canoso/a",
+        "answer": 1
+    },
+    {
+        "question": "Red (Hair)",
+        "choice1": "pelirrojo/a",
+        "choice2": "brillante",
+        "choice3": "largo/a",
+        "choice4": "liso/a",
+        "answer": 1
+    },
+    {
+        "question": "Black (Hair)",
+        "choice1": "calvo/a",
+        "choice2": "negro/a",
+        "choice3": "brillante",
+        "choice4": "pelirrojo/a",
+        "answer": 2
+    },
+    {
+        "question": "Grey (Hair)",
+        "choice1": "largo/a",
+        "choice2": "pelirrojo/a",
+        "choice3": "canoso/a",
+        "choice4": "brillante",
         "answer": 3
+    },
+    {
+        "question": "Thick (Hair)",
+        "choice1": "pelirrojo/a",
+        "choice2": "abundante",
+        "choice3": "liso/a",
+        "choice4": "largo/a",
+        "answer": 2
+    },
+    {
+        "question": "Thin (Hair)",
+        "choice1": "calvo/a",
+        "choice2": "liso/a",
+        "choice3": "largo/a",
+        "choice4": "fino/a",
+        "answer": 4
+    },
+    {
+        "question": "Layered (Hair)",
+        "choice1": "escalado/a",
+        "choice2": "pelirrojo/a",
+        "choice3": "calvo/a",
+        "choice4": "fino/a",
+        "answer": 1
+    },
+    {
+        "question": "Dyed (Hair)",
+        "choice1": "encrespado/a",
+        "choice2": "saludable",
+        "choice3": "teñido/a",
+        "choice4": "fino/a",
+        "answer": 3
+    },
+    {
+        "question": "Healthy (Hair)",
+        "choice1": "fino/a",
+        "choice2": "encrespado/a",
+        "choice3": "ondulado/a",
+        "choice4": "saludable",
+        "answer": 4
+    },
+    {
+        "question": "Light (Hair)",
+        "choice1": "saludable",
+        "choice2": "claro/a",
+        "choice3": "ondulado/a",
+        "choice4": "calvo/a",
+        "answer": 2
+    },
+    {
+        "question": "Frizzy (Hair)",
+        "choice1": "encrespado/a",
+        "choice2": "fino/a",
+        "choice3": "rubio/a",
+        "choice4": "calvo/a",
+        "answer": 1
+    },
+    {
+        "question": "Shiny (Hair)",
+        "choice1": "brillante",
+        "choice2": "calvo/a",
+        "choice3": "saludable",
+        "choice4": "encrespado/a",
+        "answer": 1
+    },
+    {
+        "question": "Bald (Hair)",
+        "choice1": "saludable",
+        "choice2": "encrespado/a",
+        "choice3": "calvo/a",
+        "choice4": "ondulado/a",
+        "answer": 3
+    },
+    {
+        "question": "Big",
+        "choice1": "bajo/a",
+        "choice2": "esbelto/a",
+        "choice3": "menudo/a",
+        "choice4": "grande",
+        "answer": 4
+    },
+    {
+        "question": "Small",
+        "choice1": "flaco/a",
+        "choice2": "pequeño/a",
+        "choice3": "esbelto/a",
+        "choice4": "bajo/a",
+        "answer": 2
+    },
+    {
+        "question": "Huge",
+        "choice1": "enorme",
+        "choice2": "alto/a",
+        "choice3": "menudo/a",
+        "choice4": "esbelto/a",
+        "answer": 1
+    },
+    {
+        "question": "Lean",
+        "choice1": "pequeño/a",
+        "choice2": "bajo/a",
+        "choice3": "delgado/a",
+        "choice4": "menudo/a",
+        "answer": 3
+    },
+    {
+        "question": "Slender",
+        "choice1": "bajo/a",
+        "choice2": "delgado/a",
+        "choice3": "esbelto/a",
+        "choice4": "alto/a",
+        "answer": 3
+    },
+    {
+        "question": "Skinny",
+        "choice1": "flaco/a",
+        "choice2": "esbelto/a",
+        "choice3": "menudo/a",
+        "choice4": "delgado/a",
+        "answer": 1
+    },
+    {
+        "question": "Petite",
+        "choice1": "flaco/a",
+        "choice2": "enorme",
+        "choice3": "alto/a",
+        "choice4": "menudo/a",
+        "answer": 4
+    },
+    {
+        "question": "Tall",
+        "choice1": "alto/a",
+        "choice2": "enorme",
+        "choice3": "flaco/a",
+        "choice4": "delgado/a",
+        "answer": 1
+    },
+    {
+        "question": "Short",
+        "choice1": "alto/a",
+        "choice2": "bajo/a",
+        "choice3": "enorme",
+        "choice4": "flaco/a",
+        "answer": 2
+    },
+    {
+        "question": "Beautiful",
+        "choice1": "hermoso/a",
+        "choice2": "guapo/a",
+        "choice3": "adorable",
+        "choice4": "poco atractivo/a",
+        "answer": 1
+    },
+    {
+        "question": "Handsome",
+        "choice1": "poco atractivo/a",
+        "choice2": "bonita",
+        "choice3": "guapo/a",
+        "choice4": "promedio/a",
+        "answer": 3
+    },
+    {
+        "question": "Ugly",
+        "choice1": "promedio/a",
+        "choice2": "hermoso/a",
+        "choice3": "bonita",
+        "choice4": "feo/a",
+        "answer": 4
+    },
+    {
+        "question": "Cute",
+        "choice1": "atractivo/a",
+        "choice2": "feo/a",
+        "choice3": "hermoso/a",
+        "choice4": "adorable",
+        "answer": 4
+    },
+    {
+        "question": "Pretty",
+        "choice1": "feo/a",
+        "choice2": "bonita",
+        "choice3": "adorable",
+        "choice4": "hermoso/a",
+        "answer": 2
+    },
+    {
+        "question": "Stunning",
+        "choice1": "guapo/a",
+        "choice2": "adorable",
+        "choice3": "impresionante",
+        "choice4": "atractivo/a",
+        "answer": 3
+    },
+    {
+        "question": "Plain",
+        "choice1": "poco atractivo/a",
+        "choice2": "guapo/a",
+        "choice3": "promedio/a",
+        "choice4": "impresionante",
+        "answer": 1
+    },
+    {
+        "question": "Average",
+        "choice1": "impresionante",
+        "choice2": "atractivo/a",
+        "choice3": "guapo/a",
+        "choice4": "promedio/a",
+        "answer": 4
+    },
+    {
+        "question": "Attractive",
+        "choice1": "poco atractivo/a",
+        "choice2": "feo/a",
+        "choice3": "promedio/a",
+        "choice4": "atractivo/a",
+        "answer": 4
     }
 ]

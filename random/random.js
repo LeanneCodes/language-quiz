@@ -16,7 +16,7 @@ let availableQuestions = [];
 
 let questions = []
 
-fetch("adjectives.json")
+fetch("random.json")
     .then(res => {
         return res.json();
     })

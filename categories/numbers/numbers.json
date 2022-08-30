@@ -1,42 +1,90 @@
 [
     {
-        "question": "How many toes do we have?",
-        "choice1": "6",
-        "choice2": "3",
-        "choice3": "8",
-        "choice4": "10",
+        "question": "Zero",
+        "choice1": "seis",
+        "choice2": "diez",
+        "choice3": "dos",
+        "choice4": "cero",
         "answer": 4
     },
     {
-        "question": "How many fingers do we have?",
-        "choice1": "4",
-        "choice2": "7",
-        "choice3": "10",
-        "choice4": "6",
+        "question": "One",
+        "choice1": "cinco",
+        "choice2": "nueve",
+        "choice3": "uno",
+        "choice4": "siete",
         "answer": 3
     },
     {
-        "question": "How many arms do we have?",
-        "choice1": "2",
-        "choice2": "3",
-        "choice3": "1",
-        "choice4": "8",
+        "question": "Two",
+        "choice1": "dos",
+        "choice2": "cero",
+        "choice3": "diez",
+        "choice4": "cuatro",
         "answer": 1
     },
     {
-        "question": "How many legs do we have?",
-        "choice1": "4",
-        "choice2": "2",
-        "choice3": "1",
-        "choice4": "9",
+        "question": "Three",
+        "choice1": "ocho",
+        "choice2": "tres",
+        "choice3": "dos",
+        "choice4": "uno",
         "answer": 2
     },
     {
-        "question": "How many nails do we have?",
-        "choice1": "40",
-        "choice2": "30",
-        "choice3": "20",
-        "choice4": "10",
+        "question": "Four",
+        "choice1": "diez",
+        "choice2": "cuatro",
+        "choice3": "uno",
+        "choice4": "nueve",
+        "answer": 2
+    },
+    {
+        "question": "Five",
+        "choice1": "ocho",
+        "choice2": "nueve",
+        "choice3": "cinco",
+        "choice4": "dos",
         "answer": 3
+    },
+    {
+        "question": "Six",
+        "choice1": "cinco",
+        "choice2": "ocho",
+        "choice3": "seis",
+        "choice4": "nueve",
+        "answer": 3
+    },
+    {
+        "question": "Seven",
+        "choice1": "siete",
+        "choice2": "uno",
+        "choice3": "cero",
+        "choice4": "nueve",
+        "answer": 1
+    },
+    {
+        "question": "Eight",
+        "choice1": "seis",
+        "choice2": "cinco",
+        "choice3": "siete",
+        "choice4": "ocho",
+        "answer": 4
+    },
+    {
+        "question": "Nine",
+        "choice1": "nueve",
+        "choice2": "cero",
+        "choice3": "seis",
+        "choice4": "ocho",
+        "answer": 1
+    },
+    {
+        "question": "Ten",
+        "choice1": "siete",
+        "choice2": "diez",
+        "choice3": "dos",
+        "choice4": "cuatro",
+        "answer": 2
     }
 ]

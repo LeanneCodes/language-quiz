@@ -1,42 +1,82 @@
 [
     {
-        "question": "How many toes do we have?",
-        "choice1": "6",
-        "choice2": "3",
-        "choice3": "8",
-        "choice4": "10",
-        "answer": 4
-    },
-    {
-        "question": "How many fingers do we have?",
-        "choice1": "4",
-        "choice2": "7",
-        "choice3": "10",
-        "choice4": "6",
-        "answer": 3
-    },
-    {
-        "question": "How many arms do we have?",
-        "choice1": "2",
-        "choice2": "3",
-        "choice3": "1",
-        "choice4": "8",
+        "question": "Father",
+        "choice1": "el padre",
+        "choice2": "el hijo",
+        "choice3": "la familia cercana",
+        "choice4": "la hermana",
         "answer": 1
     },
     {
-        "question": "How many legs do we have?",
-        "choice1": "4",
-        "choice2": "2",
-        "choice3": "1",
-        "choice4": "9",
+        "question": "Dad",
+        "choice1": "el hermano",
+        "choice2": "el hijo",
+        "choice3": "la hija",
+        "choice4": "el papá",
+        "answer": 4
+    },
+    {
+        "question": "Mother",
+        "choice1": "el padre",
+        "choice2": "la hija",
+        "choice3": "la madre",
+        "choice4": "el hermano",
+        "answer": 3
+    },
+    {
+        "question": "Mum",
+        "choice1": "el hijo",
+        "choice2": "la mamá",
+        "choice3": "el papá",
+        "choice4": "la hija",
         "answer": 2
     },
     {
-        "question": "How many nails do we have?",
-        "choice1": "40",
-        "choice2": "30",
-        "choice3": "20",
-        "choice4": "10",
+        "question": "Brother",
+        "choice1": "la mamá",
+        "choice2": "el hermano",
+        "choice3": "el padre",
+        "choice4": "el hijo",
+        "answer": 2
+    },
+    {
+        "question": "Sister",
+        "choice1": "el hermano",
+        "choice2": "la mamá",
+        "choice3": "la hermana",
+        "choice4": "el papá",
         "answer": 3
+    },
+    {
+        "question": "Son",
+        "choice1": "el hijo",
+        "choice2": "el papá",
+        "choice3": "la hermana",
+        "choice4": "la mamá",
+        "answer": 1
+    },
+    {
+        "question": "Daughter",
+        "choice1": "la hija",
+        "choice2": "el papá",
+        "choice3": "la mamá",
+        "choice4": "el padre",
+        "answer": 1
+    },
+    {
+        "question": "Close Family",
+        "choice1": "la hermana",
+        "choice2": "el hermano",
+        "choice3": "la hija",
+        "choice4": "la familia cercana",
+        "answer": 4
+    },
+    {
+        "question": "",
+        "choice1": "",
+        "choice2": "",
+        "choice3": "",
+        "choice4": "l",
+        "answer": 2
     }
 ]

@@ -7,7 +7,7 @@ const mostRecentScore = localStorage.getItem('mostRecentScore');
 const highScores = JSON.parse(localStorage.getItem('highScores')) || [];
 
 const MAX_HIGH_SCORES = 10;
-const max_questions = 5;
+const max_questions = 10;
 
 finalScore.innerText = `You scored\n${mostRecentScore}/${MAX_HIGH_SCORES * max_questions}`;
 

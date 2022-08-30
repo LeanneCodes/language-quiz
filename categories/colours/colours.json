@@ -1,42 +1,90 @@
 [
     {
-        "question": "How many toes do we have?",
-        "choice1": "6",
-        "choice2": "3",
-        "choice3": "8",
-        "choice4": "10",
-        "answer": 4
-    },
-    {
-        "question": "How many fingers do we have?",
-        "choice1": "4",
-        "choice2": "7",
-        "choice3": "10",
-        "choice4": "6",
+        "question": "Black",
+        "choice1": "verde",
+        "choice2": "rosado",
+        "choice3": "negro",
+        "choice4": "anaranjado",
         "answer": 3
     },
     {
-        "question": "How many arms do we have?",
-        "choice1": "2",
-        "choice2": "3",
-        "choice3": "1",
-        "choice4": "8",
-        "answer": 1
-    },
-    {
-        "question": "How many legs do we have?",
-        "choice1": "4",
-        "choice2": "2",
-        "choice3": "1",
-        "choice4": "9",
+        "question": "Brown",
+        "choice1": "blanco",
+        "choice2": "marrón / café",
+        "choice3": "morado / púrpura",
+        "choice4": "amarillo",
         "answer": 2
     },
     {
-        "question": "How many nails do we have?",
-        "choice1": "40",
-        "choice2": "30",
-        "choice3": "20",
-        "choice4": "10",
+        "question": "Grey",
+        "choice1": "gris",
+        "choice2": "amarillo",
+        "choice3": "morado / púrpura",
+        "choice4": "negro",
+        "answer": 1
+    },
+    {
+        "question": "White",
+        "choice1": "blanco",
+        "choice2": "verde",
+        "choice3": "rojo",
+        "choice4": "gris",
+        "answer": 1
+    },
+    {
+        "question": "Yellow",
+        "choice1": "gris",
+        "choice2": "amarillo",
+        "choice3": "blanco",
+        "choice4": "morado / púrpura",
+        "answer": 2
+    },
+    {
+        "question": "Orange",
+        "choice1": "marrón / café",
+        "choice2": "azul",
+        "choice3": "verde",
+        "choice4": "anaranjado",
+        "answer": 4
+    },
+    {
+        "question": "Red",
+        "choice1": "amarillo",
+        "choice2": "rojo",
+        "choice3": "rosado",
+        "choice4": "azul",
+        "answer": 2
+    },
+    {
+        "question": "Pink",
+        "choice1": "gris",
+        "choice2": "marrón / café",
+        "choice3": "rosado",
+        "choice4": "azul",
         "answer": 3
+    },
+    {
+        "question": "Purple",
+        "choice1": "anaranjado",
+        "choice2": "morado / púrpura",
+        "choice3": "negro",
+        "choice4": "rojo",
+        "answer": 2
+    },
+    {
+        "question": "Blue",
+        "choice1": "negro",
+        "choice2": "anaranjado",
+        "choice3": "azul",
+        "choice4": "blanco",
+        "answer": 3
+    },
+    {
+        "question": "Green",
+        "choice1": "rosado",
+        "choice2": "verde",
+        "choice3": "azul",
+        "choice4": "marrón / café",
+        "answer": 2
     }
 ]
