@@ -1,42 +1,386 @@
 [
     {
-        "question": "How many toes do we have?",
-        "choice1": "6",
-        "choice2": "3",
-        "choice3": "8",
-        "choice4": "10",
-        "answer": 4
-    },
-    {
-        "question": "How many fingers do we have?",
-        "choice1": "4",
-        "choice2": "7",
-        "choice3": "10",
-        "choice4": "6",
-        "answer": 3
-    },
-    {
-        "question": "How many arms do we have?",
-        "choice1": "2",
-        "choice2": "3",
-        "choice3": "1",
-        "choice4": "8",
+        "question": "Quiet (Sound)",
+        "choice1": "tranquilo/a",
+        "choice2": "silencio",
+        "choice3": "probar",
+        "choice4": "escuchar",
         "answer": 1
     },
     {
-        "question": "How many legs do we have?",
-        "choice1": "4",
-        "choice2": "2",
-        "choice3": "1",
-        "choice4": "9",
+        "question": "Loud (Sound)",
+        "choice1": "escuchar",
+        "choice2": "ruidoso/a",
+        "choice3": "probar",
+        "choice4": "hormigueo",
         "answer": 2
     },
     {
-        "question": "How many nails do we have?",
-        "choice1": "40",
-        "choice2": "30",
-        "choice3": "20",
-        "choice4": "10",
+        "question": "To shout (Sound)",
+        "choice1": "hormigueo",
+        "choice2": "tranquilo/a",
+        "choice3": "gritar",
+        "choice4": "escuchar",
         "answer": 3
+    },
+    {
+        "question": "To hear (Sound)",
+        "choice1": "silencio",
+        "choice2": "alto",
+        "choice3": "probar",
+        "choice4": "escuchar",
+        "answer": 4
+    },
+    {
+        "question": "Silence (Sound)",
+        "choice1": "silencio",
+        "choice2": "alto",
+        "choice3": "tranquilo/a",
+        "choice4": "ver",
+        "answer": 1
+    },
+    {
+        "question": "Loud (Sound)",
+        "choice1": "ver",
+        "choice2": "alto",
+        "choice3": "probar",
+        "choice4": "brillante",
+        "answer": 2
+    },
+    {
+        "question": "Soft (Sound)",
+        "choice1": "alto",
+        "choice2": "brillante",
+        "choice3": "bajo",
+        "choice4": "dulzón",
+        "answer": 3
+    },
+    {
+        "question": "To see (Sight)",
+        "choice1": "de colores",
+        "choice2": "bajo",
+        "choice3": "brillante",
+        "choice4": "ver",
+        "answer": 4
+    },
+    {
+        "question": "To look (Sight)",
+        "choice1": "mirar",
+        "choice2": "de colores",
+        "choice3": "tranquilo/a",
+        "choice4": "oscuro",
+        "answer": 1
+    },
+    {
+        "question": "Colourful (Sight)",
+        "choice1": "brillante",
+        "choice2": "de colores",
+        "choice3": "dulzón",
+        "choice4": "oscuro",
+        "answer": 2
+    },
+    {
+        "question": "Black and White (Sight)",
+        "choice1": "oscuro",
+        "choice2": "bajo",
+        "choice3": "blanco y negro",
+        "choice4": "ver",
+        "answer": 3
+    },
+    {
+        "question": "Bright (Sight)",
+        "choice1": "ver",
+        "choice2": "oscuro",
+        "choice3": "tranquilo/a",
+        "choice4": "brillante",
+        "answer": 4
+    },
+    {
+        "question": "Dim (Sight)",
+        "choice1": "apagado",
+        "choice2": "sedoso(a)",
+        "choice3": "soso",
+        "choice4": "sabor",
+        "answer": 1
+    },
+    {
+        "question": "Light (Sight)",
+        "choice1": "soso",
+        "choice2": "claro",
+        "choice3": "apagado",
+        "choice4": "sedoso(a)",
+        "answer": 2
+    },
+    {
+        "question": "Dark (Sight)",
+        "choice1": "dulzón",
+        "choice2": "apagado",
+        "choice3": "oscuro",
+        "choice4": "sedoso(a)",
+        "answer": 3
+    },
+    {
+        "question": "Blind (Sight)",
+        "choice1": "apagado",
+        "choice2": "soso",
+        "choice3": "sabor",
+        "choice4": "ciego",
+        "answer": 4
+    },
+    {
+        "question": "To touch (Touch)",
+        "choice1": "tocar",
+        "choice2": "sabor",
+        "choice3": "apagado",
+        "choice4": "bajo",
+        "answer": 1
+    },
+    {
+        "question": "To grab (Touch)",
+        "choice1": "sabor",
+        "choice2": "agarrar",
+        "choice3": "tocar",
+        "choice4": "mullido(a)",
+        "answer": 2
+    },
+    {
+        "question": "Soft (Touch)",
+        "choice1": "escuchar",
+        "choice2": "agarrar",
+        "choice3": "suave",
+        "choice4": "tocar",
+        "answer": 3
+    },
+    {
+        "question": "Rough (Touch)",
+        "choice1": "ruidoso/a",
+        "choice2": "tocar",
+        "choice3": "agarrar",
+        "choice4": "áspero(a)",
+        "answer": 4
+    },
+    {
+        "question": "Smooth (Touch)",
+        "choice1": "liso(a)",
+        "choice2": "agarrar",
+        "choice3": "silencio",
+        "choice4": "de colores",
+        "answer": 1
+    },
+    {
+        "question": "Wrinkled (Touch)",
+        "choice1": "de colores",
+        "choice2": "rugoso(a)",
+        "choice3": "liso(a)",
+        "choice4": "agarrar",
+        "answer": 2
+    },
+    {
+        "question": "Sticky (Touch)",
+        "choice1": "liso(a)",
+        "choice2": "agarrar",
+        "choice3": "pegajoso(a)",
+        "choice4": "de colores",
+        "answer": 3
+    },
+    {
+        "question": "Sharp (Touch)",
+        "choice1": "rugoso(a)",
+        "choice2": "tocar",
+        "choice3": "liso(a)",
+        "choice4": "punzante",
+        "answer": 4
+    },
+    {
+        "question": "Silky (Touch)",
+        "choice1": "sedoso(a)",
+        "choice2": "escuchar",
+        "choice3": "de colores",
+        "choice4": "rugoso(a)",
+        "answer": 1
+    },
+    {
+        "question": "Spongy (Touch)",
+        "choice1": "tocar",
+        "choice2": "esponjoso(a)",
+        "choice3": "ruidoso/a",
+        "choice4": "mullido(a)",
+        "answer": 2
+    },
+    {
+        "question": "Fluffy (Touch)",
+        "choice1": "silencio",
+        "choice2": "sabor",
+        "choice3": "mullido(a)",
+        "choice4": "esponjoso(a)",
+        "answer": 3
+    },
+    {
+        "question": "Tingle (Touch)",
+        "choice1": "rugoso(a)",
+        "choice2": "sabor",
+        "choice3": "tocar",
+        "choice4": "hormigueo",
+        "answer": 4
+    },
+    {
+        "question": "Smell (Smell)",
+        "choice1": "olor",
+        "choice2": "rugoso(a)",
+        "choice3": "sabor",
+        "choice4": "esponjoso(a)",
+        "answer": 1
+    },
+    {
+        "question": "Scent (Smell)",
+        "choice1": "gritar",
+        "choice2": "el perfume",
+        "choice3": "olor",
+        "choice4": "esponjoso(a)",
+        "answer": 2
+    },
+    {
+        "question": "Fragrance (Smell)",
+        "choice1": "gritar",
+        "choice2": "punzante",
+        "choice3": "la fragancia",
+        "choice4": "olor",
+        "answer": 3
+    },
+    {
+        "question": "Stench (Smell)",
+        "choice1": "punzante",
+        "choice2": "olor",
+        "choice3": "escuchar",
+        "choice4": "el hedor",
+        "answer": 4
+    },
+    {
+        "question": "Smelly (Smell)",
+        "choice1": "apestoso(a)",
+        "choice2": "acre",
+        "choice3": "el hedor",
+        "choice4": "ruidoso/a",
+        "answer": 1
+    },
+    {
+        "question": "Fresh (Smell)",
+        "choice1": "punzante",
+        "choice2": "fresco(a)",
+        "choice3": "el hedor",
+        "choice4": "olor",
+        "answer": 2
+    },
+    {
+        "question": "Pungent (Smell)",
+        "choice1": "el hedor",
+        "choice2": "ruidoso/a",
+        "choice3": "acre",
+        "choice4": "punzante",
+        "answer": 3
+    },
+    {
+        "question": "Musty (Smell)",
+        "choice1": "el hedor",
+        "choice2": "acre",
+        "choice3": "gusto",
+        "choice4": "húmedo(a)",
+        "answer": 4
+    },
+    {
+        "question": "Rotten (Smell)",
+        "choice1": "podrido(a)",
+        "choice2": "gusto",
+        "choice3": "ruidoso/a",
+        "choice4": "húmedo(a)",
+        "answer": 1
+    },
+    {
+        "question": "Smoky (Smell)",
+        "choice1": "ruidoso/a",
+        "choice2": "ahumado(a)",
+        "choice3": "húmedo(a)",
+        "choice4": "podrido(a)",
+        "answer": 2
+    },
+    {
+        "question": "To stink (Smell)",
+        "choice1": "podrido(a)",
+        "choice2": "húmedo(a)",
+        "choice3": "apestar",
+        "choice4": "acre",
+        "answer": 3
+    },
+    {
+        "question": "Taste (Taste)",
+        "choice1": "podrido(a)",
+        "choice2": "ruidoso/a",
+        "choice3": "húmedo(a)",
+        "choice4": "gusto",
+        "answer": 4
+    },
+    {
+        "question": "Flavour (Taste)",
+        "choice1": "sabor",
+        "choice2": "perfecto",
+        "choice3": "ruidoso/a",
+        "choice4": "apetitoso",
+        "answer": 1
+    },
+    {
+        "question": "Try (Taste)",
+        "choice1": "perfecto",
+        "choice2": "probar",
+        "choice3": "gusto",
+        "choice4": "ruidoso/a",
+        "answer": 2
+    },
+    {
+        "question": "Delicious (Taste)",
+        "choice1": "apetitoso",
+        "choice2": "perfecto",
+        "choice3": "delicioso",
+        "choice4": "podrido(a)",
+        "answer": 3
+    },
+    {
+        "question": "Perfect (Taste)",
+        "choice1": "ruidoso/a",
+        "choice2": "hormigueo",
+        "choice3": "apetitoso",
+        "choice4": "perfecto",
+        "answer": 4
+    },
+    {
+        "question": "Appetizing (Taste)",
+        "choice1": "apetitoso",
+        "choice2": "dulce",
+        "choice3": "gritar",
+        "choice4": "gusto",
+        "answer": 1
+    },
+    {
+        "question": "Sweet (Taste)",
+        "choice1": "gusto",
+        "choice2": "dulce",
+        "choice3": "hormigueo",
+        "choice4": "ruidoso/a",
+        "answer": 2
+    },
+    {
+        "question": "Sugary (Taste)",
+        "choice1": "sabor",
+        "choice2": "dulce",
+        "choice3": "dulzón",
+        "choice4": "escuchar",
+        "answer": 3
+    },
+    {
+        "question": "Bland (Taste)",
+        "choice1": "gritar",
+        "choice2": "dulce",
+        "choice3": "sabor",
+        "choice4": "soso",
+        "answer": 4
     }
 ]

@@ -72,11 +72,107 @@
         "answer": 4
     },
     {
-        "question": "",
-        "choice1": "",
-        "choice2": "",
-        "choice3": "",
-        "choice4": "l",
+        "question": "Grandfather",
+        "choice1": "el abuelo",
+        "choice2": "la abuela",
+        "choice3": "el tío",
+        "choice4": "la nieta",
+        "answer": 1
+    },
+    {
+        "question": "Grandmother",
+        "choice1": "el nieto",
+        "choice2": "la bisabuela",
+        "choice3": "la abuela",
+        "choice4": "el abuelo",
+        "answer": 3
+    },
+    {
+        "question": "Great-Grandfather",
+        "choice1": "la nieta",
+        "choice2": "el bisabuelo",
+        "choice3": "el abuelo",
+        "choice4": "el tío",
         "answer": 2
+    },
+    {
+        "question": "Great-Grandmother",
+        "choice1": "la nieta",
+        "choice2": "el tío",
+        "choice3": "el nieto",
+        "choice4": "la bisabuela",
+        "answer": 4
+    },
+    {
+        "question": "Granddaughter",
+        "choice1": "la nieta",
+        "choice2": "el abuelo",
+        "choice3": "el tío",
+        "choice4": "el bisabuelo",
+        "answer": 1
+    },
+    {
+        "question": "Grandson",
+        "choice1": "el bisabuelo",
+        "choice2": "la bisabuela",
+        "choice3": "la nieta",
+        "choice4": "el nieto",
+        "answer": 4
+    },
+    {
+        "question": "Uncle",
+        "choice1": "mis parientes",
+        "choice2": "la bisabuela",
+        "choice3": "el tío",
+        "choice4": "el bisabuelo",
+        "answer": 3
+    },
+    {
+        "question": "Aunt",
+        "choice1": "el bisabuelo",
+        "choice2": "la tía",
+        "choice3": "el nieto",
+        "choice4": "el tío abuelo",
+        "answer": 2
+    },
+    {
+        "question": "Great-Uncle",
+        "choice1": "el tío abuelo",
+        "choice2": "el bisabuelo",
+        "choice3": "mis parientes",
+        "choice4": "la prima",
+        "answer": 1
+    },
+    {
+        "question": "Great-Aunt",
+        "choice1": "la bisabuela",
+        "choice2": "el primo",
+        "choice3": "la abuela",
+        "choice4": "la tía abuela",
+        "answer": 4
+    },
+    {
+        "question": "Cousin (Male)",
+        "choice1": "el primo",
+        "choice2": "la prima",
+        "choice3": "el bisabuelo",
+        "choice4": "el tío abuelo",
+        "answer": 1
+    },
+    {
+        "question": "Cousin (Female)",
+        "choice1": "la abuela",
+        "choice2": "la prima",
+        "choice3": "el tío abuelo",
+        "choice4": "la nieta",
+        "answer": 2
+    },
+    {
+        "question": "My Relatives",
+        "choice1": "la prima",
+        "choice2": "la abuela",
+        "choice3": "mis parientes",
+        "choice4": "el primo",
+        "answer": 3
     }
 ]

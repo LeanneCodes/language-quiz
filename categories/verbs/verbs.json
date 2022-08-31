@@ -1,42 +1,226 @@
 [
     {
-        "question": "How many toes do we have?",
-        "choice1": "6",
-        "choice2": "3",
-        "choice3": "8",
-        "choice4": "10",
-        "answer": 4
-    },
-    {
-        "question": "How many fingers do we have?",
-        "choice1": "4",
-        "choice2": "7",
-        "choice3": "10",
-        "choice4": "6",
-        "answer": 3
-    },
-    {
-        "question": "How many arms do we have?",
-        "choice1": "2",
-        "choice2": "3",
-        "choice3": "1",
-        "choice4": "8",
+        "question": "To start",
+        "choice1": "empezar",
+        "choice2": "abrir",
+        "choice3": "cerrar",
+        "choice4": "intentar",
         "answer": 1
     },
     {
-        "question": "How many legs do we have?",
-        "choice1": "4",
-        "choice2": "2",
-        "choice3": "1",
-        "choice4": "9",
+        "question": "To follow",
+        "choice1": "cantar",
+        "choice2": "faltar",
+        "choice3": "reconocer",
+        "choice4": "seguir",
+        "answer": 4
+    },
+    {
+        "question": "To open",
+        "choice1": "reconocer",
+        "choice2": "abrir",
+        "choice3": "empezar",
+        "choice4": "intentar",
         "answer": 2
     },
     {
-        "question": "How many nails do we have?",
-        "choice1": "40",
-        "choice2": "30",
-        "choice3": "20",
-        "choice4": "10",
+        "question": "To search",
+        "choice1": "cantar",
+        "choice2": "reconocer",
+        "choice3": "buscar",
+        "choice4": "faltar",
         "answer": 3
+    },
+    {
+        "question": "To sing",
+        "choice1": "empezar",
+        "choice2": "llamar",
+        "choice3": "cantar",
+        "choice4": "llorar",
+        "answer": 3
+    },
+    {
+        "question": "To close",
+        "choice1": "cerrar",
+        "choice2": "llorar",
+        "choice3": "seguir",
+        "choice4": "robar",
+        "answer": 1
+    },
+    {
+        "question": "To destroy",
+        "choice1": "intentar",
+        "choice2": "destruir",
+        "choice3": "llorar",
+        "choice4": "empezar",
+        "answer": 2
+    },
+    {
+        "question": "To sleep",
+        "choice1": "robar",
+        "choice2": "dormir",
+        "choice3": "intentar",
+        "choice4": "soñar",
+        "answer": 2
+    },
+    {
+        "question": "To find",
+        "choice1": "encontrar",
+        "choice2": "faltar",
+        "choice3": "cantar",
+        "choice4": "soñar",
+        "answer": 1
+    },
+    {
+        "question": "To hide",
+        "choice1": "seguir",
+        "choice2": "soñar",
+        "choice3": "dormir",
+        "choice4": "esconder",
+        "answer": 4
+    },
+    {
+        "question": "To wait",
+        "choice1": "destruir",
+        "choice2": "esperar",
+        "choice3": "vivir",
+        "choice4": "llamar",
+        "answer": 2
+    },
+    {
+        "question": "To miss",
+        "choice1": "tomar",
+        "choice2": "seguir",
+        "choice3": "faltar",
+        "choice4": "vivir",
+        "answer": 3
+    },
+    {
+        "question": "To do",
+        "choice1": "hacer",
+        "choice2": "tomar",
+        "choice3": "destruir",
+        "choice4": "abrir",
+        "answer": 1
+    },
+    {
+        "question": "To try",
+        "choice1": "intentar",
+        "choice2": "hacer",
+        "choice3": "buscar",
+        "choice4": "tomar",
+        "answer": 1
+    },
+    {
+        "question": "To call",
+        "choice1": "hacer",
+        "choice2": "abrir",
+        "choice3": "vivir",
+        "choice4": "llamar",
+        "answer": 4
+    },
+    {
+        "question": "To take",
+        "choice1": "vivir",
+        "choice2": "llevar",
+        "choice3": "encontrar",
+        "choice4": "dormir",
+        "answer": 2
+    },
+    {
+        "question": "To cry",
+        "choice1": "buscar",
+        "choice2": "vivir",
+        "choice3": "llorar",
+        "choice4": "hacer",
+        "answer": 3
+    },
+    {
+        "question": "To fight",
+        "choice1": "destruir",
+        "choice2": "salvar",
+        "choice3": "luchar",
+        "choice4": "llamar",
+        "answer": 3
+    },
+    {
+        "question": "To lie",
+        "choice1": "llamar",
+        "choice2": "mentir",
+        "choice3": "salvar",
+        "choice4": "cerrar",
+        "answer": 2
+    },
+    {
+        "question": "To hate",
+        "choice1": "odiar",
+        "choice2": "mentir",
+        "choice3": "buscar",
+        "choice4": "salvar",
+        "answer": 1
+    },
+    {
+        "question": "To receive",
+        "choice1": "esconder",
+        "choice2": "cerrar",
+        "choice3": "odiar",
+        "choice4": "recibir",
+        "answer": 4
+    },
+    {
+        "question": "To recognise",
+        "choice1": "dormir",
+        "choice2": "reconocer",
+        "choice3": "esconder",
+        "choice4": "robar",
+        "answer": 2
+    },
+    {
+        "question": "To steal",
+        "choice1": "robar",
+        "choice2": "luchar",
+        "choice3": "mentir",
+        "choice4": "cerrar",
+        "answer": 1
+    },
+    {
+        "question": "To save",
+        "choice1": "llevar",
+        "choice2": "esconder",
+        "choice3": "salvar",
+        "choice4": "mentir",
+        "answer": 3
+    },
+    {
+        "question": "To smile",
+        "choice1": "luchar",
+        "choice2": "destruir",
+        "choice3": "sonreír",
+        "choice4": "odiar",
+        "answer": 3
+    },
+    {
+        "question": "To dream",
+        "choice1": "encontrar",
+        "choice2": "soñar",
+        "choice3": "dormir",
+        "choice4": "odiar",
+        "answer": 2
+    },
+    {
+        "question": "To take",
+        "choice1": "tomar",
+        "choice2": "llevar",
+        "choice3": "dormir",
+        "choice4": "luchar",
+        "answer": 1
+    },
+    {
+        "question": "To live",
+        "choice1": "esconder",
+        "choice2": "llevar",
+        "choice3": "encontrar",
+        "choice4": "vivir",
+        "answer": 4
     }
 ]

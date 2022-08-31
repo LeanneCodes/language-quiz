@@ -1,42 +1,170 @@
 [
     {
-        "question": "How many toes do we have?",
-        "choice1": "6",
-        "choice2": "3",
-        "choice3": "8",
-        "choice4": "10",
-        "answer": 4
-    },
-    {
-        "question": "How many fingers do we have?",
-        "choice1": "4",
-        "choice2": "7",
-        "choice3": "10",
-        "choice4": "6",
-        "answer": 3
-    },
-    {
-        "question": "How many arms do we have?",
-        "choice1": "2",
-        "choice2": "3",
-        "choice3": "1",
-        "choice4": "8",
+        "question": "The sun",
+        "choice1": "el sol",
+        "choice2": "las nubes",
+        "choice3": "la llovizna",
+        "choice4": "el calor",
         "answer": 1
     },
     {
-        "question": "How many legs do we have?",
-        "choice1": "4",
-        "choice2": "2",
-        "choice3": "1",
-        "choice4": "9",
+        "question": "The clouds",
+        "choice1": "el tornado",
+        "choice2": "las nubes",
+        "choice3": "la lluvia",
+        "choice4": "el calor",
         "answer": 2
     },
     {
-        "question": "How many nails do we have?",
-        "choice1": "40",
-        "choice2": "30",
-        "choice3": "20",
-        "choice4": "10",
+        "question": "The fog",
+        "choice1": "el pronóstico",
+        "choice2": "el calor",
+        "choice3": "la niebla",
+        "choice4": "el sol",
         "answer": 3
+    },
+    {
+        "question": "The mist",
+        "choice1": "la lluvia",
+        "choice2": "el tornado",
+        "choice3": "la llovizna",
+        "choice4": "la neblina",
+        "answer": 4
+    },
+    {
+        "question": "The rain",
+        "choice1": "la lluvia",
+        "choice2": "el granizo",
+        "choice3": "la neblina",
+        "choice4": "el calor",
+        "answer": 1
+    },
+    {
+        "question": "The drizzle",
+        "choice1": "el pronóstico",
+        "choice2": "la llovizna",
+        "choice3": "la lluvia",
+        "choice4": "el granizo",
+        "answer": 2
+    },
+    {
+        "question": "The storm",
+        "choice1": "el granizo",
+        "choice2": "el pronóstico",
+        "choice3": "la tormenta",
+        "choice4": "la lluvia",
+        "answer": 3
+    },
+    {
+        "question": "The tornado",
+        "choice1": "las nubes",
+        "choice2": "el pronóstico",
+        "choice3": "el granizo",
+        "choice4": "el tornado",
+        "answer": 4
+    },
+    {
+        "question": "The thunder",
+        "choice1": "el trueno",
+        "choice2": "el relámpago",
+        "choice3": "el sol",
+        "choice4": "el tornado",
+        "answer": 1
+    },
+    {
+        "question": "The lightening strike",
+        "choice1": "la neblina",
+        "choice2": "el relámpago",
+        "choice3": "el rayo",
+        "choice4": "la temperatura",
+        "answer": 2
+    },
+    {
+        "question": "The lightening bolt",
+        "choice1": "la llovizna",
+        "choice2": "el frío",
+        "choice3": "el rayo",
+        "choice4": "el relámpago",
+        "answer": 3
+    },
+    {
+        "question": "The wind",
+        "choice1": "el sol",
+        "choice2": "el frío",
+        "choice3": "el relámpago",
+        "choice4": "el viento",
+        "answer": 4
+    },
+    {
+        "question": "The breeze",
+        "choice1": "la brisa",
+        "choice2": "las nubes",
+        "choice3": "el relámpago",
+        "choice4": "el frío",
+        "answer": 1
+    },
+    {
+        "question": "The hail",
+        "choice1": "el trueno",
+        "choice2": "el granizo",
+        "choice3": "la brisa",
+        "choice4": "la niebla",
+        "answer": 2
+    },
+    {
+        "question": "The ice",
+        "choice1": "la niebla",
+        "choice2": "la brisa",
+        "choice3": "el hielo",
+        "choice4": "el trueno",
+        "answer": 3
+    },
+    {
+        "question": "The snow",
+        "choice1": "el trueno",
+        "choice2": "la niebla",
+        "choice3": "la brisa",
+        "choice4": "la nieve",
+        "answer": 4
+    },
+    {
+        "question": "The heat",
+        "choice1": "el calor",
+        "choice2": "la brisa",
+        "choice3": "la neblina",
+        "choice4": "la tormenta",
+        "answer": 1
+    },
+    {
+        "question": "The cold",
+        "choice1": "el rayo",
+        "choice2": "el frío",
+        "choice3": "la tormenta",
+        "choice4": "el sol",
+        "answer": 2
+    },
+    {
+        "question": "The humidity",
+        "choice1": "la tormenta",
+        "choice2": "el trueno",
+        "choice3": "la humedad",
+        "choice4": "las nubes",
+        "answer": 3
+    },
+    {
+        "question": "The temperature",
+        "choice1": "la niebla",
+        "choice2": "la tormenta",
+        "choice3": "el rayo",
+        "choice4": "la temperatura",
+        "answer": 4
+    },
+    {
+        "question": "The forecast",
+        "choice1": "el pronóstico",
+        "choice2": "la llovizna",
+        "choice3": "la neblina",
+        "choice4": "el frío",
+        "answer": 1
     }
 ]

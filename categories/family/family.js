@@ -29,7 +29,7 @@ fetch("family.json")
     });
 
 const correct_bonus = 10;
-const max_questions = 5;
+const max_questions = 10;
 
 startGame = () => {
     questionCounter = 0;
