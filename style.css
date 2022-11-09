@@ -1,5 +1,5 @@
 :root {
-    background-color: #515052;
+    background-color: #69658E;
 }
 
 * {
@@ -8,13 +8,17 @@
     padding: 0;
     font-size: 62.5%;
     font-family: 'Comfortaa', cursive;
-    color: whitesmoke;
+    color: #F3F3E3;
 }
 
 h1 {
     font-size: 5.4rem;
     margin-bottom: 5rem;
     text-align: center;
+}
+
+.mb-1 {
+    margin-bottom: 1rem;
 }
 
 h2 {
@@ -37,6 +41,12 @@ h3 {
     max-width: 80%;
     margin: 0 auto;
     padding: 2rem;
+}
+
+#home {
+    background-color: #1B1B3A;
+    padding: 50px;
+    border-radius: 30px;
 }
 
 .flex-column {
@@ -68,18 +78,18 @@ button, .btn {
     text-align: center;
     margin-bottom: 1rem;
     text-decoration: none;
-    background: #44a1a0;
+    background: #746CF7;
     border-radius: 5px;
     border: none;
 }
 
 button:hover, .btn:hover {
     cursor: pointer;
-    background: #eae0cc;
-    color: #44a1a0;
-    box-shadow: rgba(255, 255, 255, 0.2) 0px 0px 0px 1px inset, rgba(0, 0, 0, 0.9) 0px 0px 0px 1px !important;
+    background: #F3F3E3;
+    color: #746CF7;
     transition: transform 150ms;
     transform: scale(1.03);
+    border: 2px solid #746CF7;
 }
 
 .btn[disabled]:hover {
@@ -109,14 +119,14 @@ button:hover, .btn:hover {
 .choice-prefix {
     padding: 2rem 2.5rem;
     border-radius: 5px 0 0 5px;
-    background-color: #c9ada1;
-    color: #515052;
+    background-color: #746CF7;
+    color: #F3F3E3;
 }
 
 .choice-text {
     padding: 2rem;
     width: 100%;
-    color: #515052;
+    color: #1B1B3A;
 }
 
 .fa-house {
@@ -131,7 +141,7 @@ button:hover, .btn:hover {
 }
   
 .fa-house:hover {
-    color: #44a1a0;
+    color: #746CF7;
 }
 
 .fa-graduation-cap {
@@ -141,7 +151,7 @@ button:hover, .btn:hover {
 }
 
 .fa-graduation-cap:hover {
-    color: #44a1a0;
+    color: #746CF7;
 }
 
 .correct {
@@ -170,6 +180,12 @@ button:hover, .btn:hover {
 }
 
 /* Game */
+#game {
+    background-color: #1B1B3A;
+    padding: 50px;
+    border-radius: 30px;
+}
+
 #progressBar {
     width: 20rem;
     height: 3rem;
@@ -195,11 +211,20 @@ button:hover, .btn:hover {
 
 /* Categories */
 #container-category {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
     justify-content: center;
     align-items: center;
     max-width: 80%;
     margin: 0 auto;
-    padding: 5%;
+    padding: 2rem;
+}
+
+.category {
+    background-color: #1B1B3A;
+    padding: 50px;
+    border-radius: 30px;
 }
 
 .grid-container {
@@ -210,7 +235,7 @@ button:hover, .btn:hover {
 }
   
 .grid-container > a {
-  background: #44a1a0;
+  background: #746CF7;
   text-align: center;
   padding: 50px 10px;
   font-size: 30px;
@@ -221,24 +246,24 @@ button:hover, .btn:hover {
   font-size: 30px;
   text-align: center;
   text-decoration: none;
-  background: #44a1a0;
+  background: #746CF7;
   border-radius: 5px;
 }
 
 .btn-category:hover {
   cursor: pointer;
-  background: #eae0cc;
-  color: #44a1a0;
-  box-shadow: rgba(255, 255, 255, 0.2) 0px 0px 0px 1px inset, rgba(0, 0, 0, 0.9) 0px 0px 0px 1px;
+  background: #F3F3E3;
+  color: #746CF7;
   transition: transform 150ms;
   transform: scale(1.03);
+  border: 2px solid #746CF7;
 }
 
 .navbar {
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-  margin: 4rem 0 6rem 0 !important;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 4rem 0 3rem 0 !important;
 }
 
 .fa-house {
@@ -252,6 +277,12 @@ button:hover, .btn:hover {
 }
 
 /* End screen */
+#end {
+    background-color: #1B1B3A;
+    padding: 50px;
+    border-radius: 30px;
+}
+
 form {
     width: 100%;
     display: flex;
@@ -277,6 +308,12 @@ input::placeholder {
 }
 
 /* Highscores */
+#highScores {
+    background-color: #1B1B3A;
+    padding: 50px;
+    border-radius: 30px;
+}
+
 #highScoresList {
     padding-left: 0;
     margin-bottom: 4rem;
