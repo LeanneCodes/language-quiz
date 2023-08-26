@@ -1,5 +1,5 @@
 :root {
-    background-color: #69658E;
+    background-color: #78ccea;
 }
 
 * {
@@ -8,13 +8,14 @@
     padding: 0;
     font-size: 62.5%;
     font-family: 'Comfortaa', cursive;
-    color: #F3F3E3;
+    color: whitesmoke;
 }
 
 h1 {
     font-size: 5.4rem;
     margin-bottom: 5rem;
     text-align: center;
+    color: #e9643d;
 }
 
 .mb-1 {
@@ -28,8 +29,16 @@ h2 {
 
 h3 {
     font-size: 2.5rem;
-    margin-bottom: 3rem;
+    margin-bottom: 1rem;
     text-align: center;
+    color: #e9643d;
+}
+
+h4 {
+    font-size: 1.7rem;
+    margin: 6rem 0 2rem;
+    text-align: center;
+    color: darkslategrey;
 }
 
 .container {
@@ -44,9 +53,11 @@ h3 {
 }
 
 #home {
-    background-color: #1B1B3A;
+    background-color: whitesmoke;
     padding: 50px;
     border-radius: 30px;
+    min-height: 80vh;
+    min-width: 80vw;
 }
 
 .flex-column {
@@ -78,18 +89,19 @@ button, .btn {
     text-align: center;
     margin-bottom: 1rem;
     text-decoration: none;
-    background: #746CF7;
+    background: #44bba0;
     border-radius: 5px;
     border: none;
+    border: 2px solid #44bba0;
 }
 
 button:hover, .btn:hover {
     cursor: pointer;
-    background: #F3F3E3;
-    color: #746CF7;
+    background: whitesmoke;
+    color: #44bba0;
     transition: transform 150ms;
-    transform: scale(1.03);
-    border: 2px solid #746CF7;
+    transform: scale(1.1);
+    border: 2px solid #44bba0;
 }
 
 .btn[disabled]:hover {
@@ -102,35 +114,43 @@ button:hover, .btn:hover {
     display: flex;
     margin-bottom: 1.5rem;
     width: 100%;
-    border-radius: 5px;
-    background: #eae0cc;
+    border-radius: 10px;
+    background: whitesmoke;
     font-size: 3rem;
     min-width: 80rem;
-    color: #515052 !important;
 }
 
 .choice-container:hover {
     cursor: pointer;
-    box-shadow: 0 0 5px 2px #f9f2db;
     transition: transform 100ms;
     transform: scale(1.03);
 }
 
 .choice-prefix {
     padding: 2rem 2.5rem;
-    border-radius: 5px 0 0 5px;
-    background-color: #746CF7;
-    color: #F3F3E3;
+    border-radius: 10px 0 0 10px;
+    background-color: #44bba0;
+    color: whitesmoke;
 }
 
 .choice-text {
     padding: 2rem;
     width: 100%;
-    color: #1B1B3A;
+    color: darkslategray;
+    border: 2px solid #44bba0;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.fa-classic, .fa-regular, .fa-solid, .far, .fas {
+    font-family: "Font Awesome 6 Free";
+    display: flex !important;
+    justify-content: center !important;
 }
 
 .fa-house {
     font-size: 4rem;
+    color: #78ccea;
     padding: 2rem 0 4rem 0;
     background: none !important;
 }
@@ -139,19 +159,14 @@ button:hover, .btn:hover {
     padding-top: 0 !important;
     padding-bottom: 0 !important;
 }
-  
-.fa-house:hover {
-    color: #746CF7;
-}
 
 .fa-graduation-cap {
     font-size: 3.5rem;
+    color: #78ccea;
     padding: 2rem 0 4rem 0;
     background: none !important;
-}
-
-.fa-graduation-cap:hover {
-    color: #746CF7;
+    display: flex;
+    justify-content: center;
 }
 
 .correct {
@@ -171,17 +186,17 @@ button:hover, .btn:hover {
 .hud-prefix {
     text-align: center;
     font-size: 2rem;
-    color: #eae0cc;
+    color: darkslategray;
 }
 
 .hud-main-text {
     text-align: center;
-    color: #eae0cc;
+    color: darkslategray;
 }
 
 /* Game */
 #game {
-    background-color: #1B1B3A;
+    background-color: whitesmoke;
     padding: 50px;
     border-radius: 30px;
 }
@@ -189,7 +204,7 @@ button:hover, .btn:hover {
 #progressBar {
     width: 20rem;
     height: 3rem;
-    border: 0.2rem solid #eae0cc;
+    border: 0.2rem solid darkslategray;
     border-radius: 50px;
     margin-top: 2rem;
     overflow: hidden;
@@ -197,7 +212,7 @@ button:hover, .btn:hover {
 
 #progressBarFull {
     height: 100%;
-    background: #eae0cc;
+    background: darkslategray;
     width: 0%;
 }
 
@@ -211,18 +226,15 @@ button:hover, .btn:hover {
 
 /* Categories */
 #container-category {
-    width: 100vw;
-    height: 100vh;
+    min-width: 80vw;
+    min-height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
-    max-width: 80%;
-    margin: 0 auto;
-    padding: 2rem;
 }
 
 .category {
-    background-color: #1B1B3A;
+    background-color: whitesmoke;
     padding: 50px;
     border-radius: 30px;
 }
@@ -235,7 +247,7 @@ button:hover, .btn:hover {
 }
   
 .grid-container > a {
-  background: #746CF7;
+  background: #44bba0;
   text-align: center;
   padding: 50px 10px;
   font-size: 30px;
@@ -246,17 +258,16 @@ button:hover, .btn:hover {
   font-size: 30px;
   text-align: center;
   text-decoration: none;
-  background: #746CF7;
+  background: #44bba0;
   border-radius: 5px;
+  border: 2px solid #44bba0;
 }
 
 .btn-category:hover {
   cursor: pointer;
-  background: #F3F3E3;
-  color: #746CF7;
-  transition: transform 150ms;
-  transform: scale(1.03);
-  border: 2px solid #746CF7;
+  background: whitesmoke;
+  color: #44bba0;
+  border: 2px solid #44bba0;
 }
 
 .navbar {
@@ -274,13 +285,16 @@ button:hover, .btn:hover {
 #category {
     font-size: 2rem;
     padding: 2rem 0;
+    color: darkslategray;
 }
 
 /* End screen */
 #end {
-    background-color: #1B1B3A;
+    background-color: whitesmoke;
     padding: 50px;
     border-radius: 30px;
+    width: 80vw;
+    height: 80vh;
 }
 
 form {
@@ -309,9 +323,11 @@ input::placeholder {
 
 /* Highscores */
 #highScores {
-    background-color: #1B1B3A;
+    background-color: whitesmoke;
     padding: 50px;
     border-radius: 30px;
+    height: 80vh;
+    width: 80vw;
 }
 
 #highScoresList {
@@ -322,6 +338,7 @@ input::placeholder {
 .high-score {
     font-size: 2.4rem;
     margin-bottom: 0.5rem;
+    color: darkslategray;
 }
 
 .high-score:hover {
@@ -332,7 +349,7 @@ input::placeholder {
 #loader {
     border: 1.6rem solid white;
     border-radius: 50%;
-    border-top: 1.6rem solid #AC8693;
+    border-top: 1.6rem solid #e9643d;
     width: 12rem;
     height: 12rem;
     animation: spin 2s linear infinite;
