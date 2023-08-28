@@ -11,6 +11,20 @@
     color: whitesmoke;
 }
 
+.spanish-flag {
+    height: 200px;
+    position: absolute;
+    bottom: 2rem;
+    left: 4rem;
+}
+
+.spanish-phrases {
+    height: 330px;
+    position: absolute;
+    top: 2rem;
+    right: 2rem;
+}
+
 h1 {
     font-size: 5.4rem;
     margin-bottom: 5rem;
@@ -118,6 +132,8 @@ button:hover, .btn:hover {
     background: whitesmoke;
     font-size: 3rem;
     min-width: 80rem;
+    position: relative;
+    bottom: 100px;
 }
 
 .choice-container:hover {
@@ -181,6 +197,7 @@ button:hover, .btn:hover {
 .hud {
     display: flex;
     justify-content: space-between;
+    margin-top: 100px;
 }
 
 .hud-prefix {
@@ -197,8 +214,10 @@ button:hover, .btn:hover {
 /* Game */
 #game {
     background-color: whitesmoke;
-    padding: 50px;
+    padding: 200px;
     border-radius: 30px;
+    min-width: 80vw;
+    height: 80vh;
 }
 
 #progressBar {
@@ -224,9 +243,18 @@ button:hover, .btn:hover {
     background-color: #dc3545;
 }
 
+.question {
+    position: relative;
+    top: -100px;
+}
+
+#question {
+    position: relative;
+    top: -100px;
+}
+
 /* Categories */
 #container-category {
-    min-width: 80vw;
     min-height: 100vh;
     display: flex;
     justify-content: center;
@@ -235,8 +263,10 @@ button:hover, .btn:hover {
 
 .category {
     background-color: whitesmoke;
-    padding: 50px;
+    padding: 50px 300px;
     border-radius: 30px;
+    min-width: 80%;
+    height: 80vh;
 }
 
 .grid-container {
@@ -286,6 +316,8 @@ button:hover, .btn:hover {
     font-size: 2rem;
     padding: 2rem 0;
     color: darkslategray;
+    position: relative;
+    bottom: 100px;
 }
 
 /* End screen */
@@ -293,7 +325,7 @@ button:hover, .btn:hover {
     background-color: whitesmoke;
     padding: 50px;
     border-radius: 30px;
-    width: 80vw;
+    min-width: 80vw;
     height: 80vh;
 }
 
@@ -327,7 +359,7 @@ input::placeholder {
     padding: 50px;
     border-radius: 30px;
     height: 80vh;
-    width: 80vw;
+    min-width: 80vw;
 }
 
 #highScoresList {

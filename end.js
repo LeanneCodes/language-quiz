@@ -28,7 +28,7 @@ saveHighScore = (e) => {
     highScores.splice(10);
 
     localStorage.setItem('highScores', JSON.stringify(highScores));
-    alert("Your score has been saved!\nBest of luck to get top 10 on the high scores list :)");
+    alert("Your score has been saved!\nBest of luck to get in the top 10 :)");
     setTimeout( () => {
         window.location.assign('/highscores.html');
     }, 1000);
