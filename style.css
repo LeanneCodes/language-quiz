@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&display=swap');
+
 :root {
     background-color: #78ccea;
 }
@@ -396,26 +398,549 @@ input::placeholder {
     }
 }
 
-@media screen and (max-width: 1100px) {
-    .grid-container {
-        display: grid;
-        grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
-        gap: 15px;
-        padding: 10px;
+/* Media Queries */
+
+/* Homepage */
+@media screen and (max-width: 1024px) {
+    .spanish-phrases {
+        height: 280px;
+    }
+
+    .spanish-flag {
+        height: 187px;
     }
 }
 
 @media screen and (max-width: 768px) {
-    .choice-container {
-        min-width: 40rem;
+    .spanish-phrases {
+        height: 220px;
+    }
+
+    .spanish-flag {
+        height: 160px;
     }
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 425px) {
+    .spanish-phrases {
+        height: 170px;
+        top: 1rem;
+        left: 13rem;
+    }
+
+    .spanish-flag {
+        height: 122px;
+        left: 14rem;
+    }
+}
+
+@media screen and (max-width: 390px) {
+    .spanish-phrases {
+        height: 170px;
+        top: 1rem;
+        left: 11rem;
+    }
+
+    .spanish-flag {
+        height: 122px;
+        left: 12rem;
+    }
+
+    #home {
+        background-color: whitesmoke;
+        padding: 23px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .spanish-phrases {
+        height: 170px;
+        top: 1rem;
+        left: 8rem;
+    }
+
+    .spanish-flag {
+        height: 122px;
+        left: 9rem;
+    }
+
+    #home {
+        background-color: whitesmoke;
+        padding: 20px;
+    }
+
+    button, .btn {
+        padding: 1rem 0;
+        width: 21rem;
+    }
+}
+
+/* Categories */
+@media screen and (max-width: 1440px) {
+    .category {
+        padding: 0;
+    }
+
     .grid-container {
-        display: grid;
-        grid-template-columns: minmax(0, 1fr);
+        padding: 50px 116px;
+    }
+
+    .grid-container > a {
+        padding: 30px 10px;
+    }
+
+    .category-title {
+        position: relative;
+        top: 4rem;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .spanish-phrases {
+        height: 280px;
+    }
+
+    .spanish-flag {
+        height: 187px;
+    }
+
+    .category {
+        padding: 0;
+    }
+
+    .grid-container {
+        grid-template-columns: minmax(0, 1fr) minmax(0, 1fr) minmax(0, 1fr) minmax(0, 1fr);
+        padding: 28px;
+    }
+
+    .category-title {
+        top: 6rem;
+        position: relative;
+        font-size: 4.4rem;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .spanish-phrases {
+        height: 220px;
+    }
+
+    .spanish-flag {
+        height: 160px;
+    }
+
+    .grid-container > a {
+        font-size: 20px;
+        top: 4rem;
+        position: relative;
+    }
+
+    .title1, .title2 {
+        position: relative;
+        top: 2rem;
+    }
+
+    .category-title {
+        position: relative;
+        top: 7rem;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .spanish-phrases {
+        height: 170px;
+        top: 1rem;
+        left: 13rem;
+    }
+
+    .spanish-flag {
+        height: 122px;
+        left: 14rem;
+    }
+
+    .category-title {
+        top: 6rem;
+        font-size: 2.4rem;
+    }
+
+    #home {
+        padding: 20px;
+    }
+
+    .grid-container {
+        grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
+        width: 71%;
+        margin: auto;
         gap: 15px;
-        padding: 10px;
+        padding: 0px;
+        position: relative;
+    }
+
+    .grid-container > a {
+        padding: 20px 10px;
+        font-size: 17px;
+    }
+
+    .navbar {
+        top: 6rem;
+        position: relative;
+    }
+
+    .title1, .title2 {
+        position: relative;
+        top: 2rem;
+    }
+}
+
+@media screen and (max-width: 390px) {
+    .spanish-phrases {
+        height: 170px;
+        top: 1rem;
+        left: 11rem;
+    }
+
+    .spanish-flag {
+        height: 122px;
+        left: 12rem;
+    }
+
+    #home {
+        background-color: whitesmoke;
+        padding: 23px;
+    }
+
+    .grid-container > a {
+        padding: 20px 10px;
+        font-size: 15px;
+    }
+
+    .grid-container {
+        grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
+        width: 71%;
+        margin: auto;
+        gap: 6px;
+        padding: 0px;
+        position: relative;
+        top: 1rem;
+    }
+
+    button, .btn {
+        font-size: 2rem;
+        width: 25rem;
+    }
+
+    .title2, .title1 {
+        position: relative;
+        top: 3rem;
+    }
+
+}
+
+@media screen and (max-width: 320px) {
+    .spanish-phrases {
+        height: 170px;
+        top: 1rem;
+        left: 8rem;
+    }
+
+    .spanish-flag {
+        height: 122px;
+        left: 9rem;
+    }
+
+    #home {
+        background-color: whitesmoke;
+        padding: 20px;
+    }
+
+    button, .btn {
+        padding: 1rem 0;
+        width: 21rem;
+        font-size: 2rem;
+    }
+
+    .grid-container > a {
+        padding: 6px 10px;
+        font-size: 15px;
+    }
+
+    .grid-container {
+        grid-template-columns: minmax(0, 1fr);
+        gap: 9px;
+        bottom: 1rem;
+    }
+
+    .category-title {
+        font-size: 2rem;
+        margin-bottom: 3rem;
+    }
+
+    .title1 {
+        top: 4rem;
+        position: relative;
+    }
+
+    .title2 {
+        position: relative;
+        top: 4.5rem;
+        font-size: 2rem;
+    }
+
+    .title3 {
+        font-size: 1.4rem;
+        position: relative;
+        top: 1rem;
+    }
+}
+
+/* Quiz Page */
+@media screen and (max-width: 1440px) {
+    .hud {
+        position: relative;
+    }
+
+    .question {
+        width: 100%;
+        margin: auto;
+        top: 2rem;
+    }
+
+    #question {
+        font-size: 4.5rem;
+        top: 2rem;
+    }
+
+    .choice-container-grid {
+        display: grid;
+        grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
+        gap: 0 15px;
+        position: relative;
+        top: 12rem;
+    }
+
+    .choice-container {
+        min-width: 40rem;
+    }
+
+    #game {
+        padding: 60px;
+    }
+
+    #category {
+        text-align: center;
+        top: 3rem;
+    }
+
+    .icon-links {
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+        position: relative;
+        bottom: 4rem;
+    }
+
+    .spanish-phrases-game {
+        position: absolute;
+        height: 300px;
+        top: -15rem;
+        left: 38rem;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .spanish-phrases {
+        height: 280px;
+    }
+
+    .spanish-flag {
+        height: 187px;
+    }
+
+    .category {
+        padding: 0;
+    }
+
+    .grid-container {
+        grid-template-columns: minmax(0, 1fr) minmax(0, 1fr) minmax(0, 1fr) minmax(0, 1fr);
+        padding: 28px;
+    }
+
+    .category-title {
+        top: 6rem;
+        position: relative;
+        font-size: 4.4rem;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .spanish-phrases {
+        height: 220px;
+    }
+
+    .spanish-flag {
+        height: 160px;
+    }
+
+    .grid-container > a {
+        font-size: 20px;
+        top: 4rem;
+        position: relative;
+    }
+
+    .title1, .title2 {
+        position: relative;
+        top: 2rem;
+    }
+
+    .category-title {
+        position: relative;
+        top: 7rem;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .spanish-phrases {
+        height: 170px;
+        top: 1rem;
+        left: 13rem;
+    }
+
+    .spanish-flag {
+        height: 122px;
+        left: 14rem;
+    }
+
+    .category-title {
+        top: 6rem;
+        font-size: 2.4rem;
+    }
+
+    #home {
+        padding: 20px;
+    }
+
+    .grid-container {
+        grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
+        width: 71%;
+        margin: auto;
+        gap: 15px;
+        padding: 0px;
+        position: relative;
+    }
+
+    .grid-container > a {
+        padding: 20px 10px;
+        font-size: 17px;
+    }
+
+    .navbar {
+        top: 6rem;
+        position: relative;
+    }
+
+    .title1, .title2 {
+        position: relative;
+        top: 2rem;
+    }
+}
+
+@media screen and (max-width: 390px) {
+    .spanish-phrases {
+        height: 170px;
+        top: 1rem;
+        left: 11rem;
+    }
+
+    .spanish-flag {
+        height: 122px;
+        left: 12rem;
+    }
+
+    #home {
+        background-color: whitesmoke;
+        padding: 23px;
+    }
+
+    .grid-container > a {
+        padding: 20px 10px;
+        font-size: 15px;
+    }
+
+    .grid-container {
+        grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
+        width: 71%;
+        margin: auto;
+        gap: 6px;
+        padding: 0px;
+        position: relative;
+        top: 1rem;
+    }
+
+    button, .btn {
+        font-size: 2rem;
+        width: 25rem;
+    }
+
+    .title2, .title1 {
+        position: relative;
+        top: 3rem;
+    }
+
+}
+
+@media screen and (max-width: 320px) {
+    .spanish-phrases {
+        height: 170px;
+        top: 1rem;
+        left: 8rem;
+    }
+
+    .spanish-flag {
+        height: 122px;
+        left: 9rem;
+    }
+
+    #home {
+        background-color: whitesmoke;
+        padding: 20px;
+    }
+
+    button, .btn {
+        padding: 1rem 0;
+        width: 21rem;
+        font-size: 2rem;
+    }
+
+    .grid-container > a {
+        padding: 6px 10px;
+        font-size: 15px;
+    }
+
+    .grid-container {
+        grid-template-columns: minmax(0, 1fr);
+        gap: 9px;
+        bottom: 1rem;
+    }
+
+    .category-title {
+        font-size: 2rem;
+        margin-bottom: 3rem;
+    }
+
+    .title1 {
+        top: 4rem;
+        position: relative;
+    }
+
+    .title2 {
+        position: relative;
+        top: 4.5rem;
+        font-size: 2rem;
+    }
+
+    .title3 {
+        font-size: 1.4rem;
+        position: relative;
+        top: 1rem;
     }
 }
